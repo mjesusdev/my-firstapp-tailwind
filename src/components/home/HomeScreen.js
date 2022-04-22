@@ -15,12 +15,15 @@ export const HomeScreen = () => {
     <div className="App">
         <header className="App-header">
             <NavBar />
+
             <img src={logo} className="App-logo" alt="React Icon 🚀" />
-            <h1 className="text-5xl text-sky-400/100 font-bold mb-5">
-                Hello world!
-            </h1>
+            <div className='text-5xl font-extrabold mb-5'>
+                <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
+                    Hello world
+                </span>
+            </div>
             <button onClick={handleClick}
-                className="bg-sky-500 opacity-100 font-bold tracking-tighter rounded padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2">
+                className="bg-sky-500 font-bold tracking-tighter rounded padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2">
                 Open an Alert 🙈
             </button>
         </header>
