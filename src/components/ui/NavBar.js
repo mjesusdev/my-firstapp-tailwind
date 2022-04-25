@@ -31,7 +31,13 @@ export default function NavBar() {
       </NavLink>
       <NavLink 
         className="rounded-lg px-3 py-2 text-white-700 font-medium hover:bg-slate-100 hover:text-slate-900" 
-        to="/"
+        to="/forms"
+        style={({ isActive }) => {
+          return {
+            backgroundColor: isActive ? '#f7f7f7' : 'transparent',
+            color: isActive ? '#000' : '#f7f7f7'
+          }
+        }}
         >
           Forms
       </NavLink>
