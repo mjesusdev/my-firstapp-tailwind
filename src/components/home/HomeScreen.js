@@ -12,22 +12,20 @@ const handleClick = () => {
 
 export const HomeScreen = () => {
   return (
-    <div className="App">
-        <header className="App-header">
-            <NavBar />
+    <header className="App-header">
+        <NavBar />
 
-            <img src={logo} className="App-logo" alt="React Icon 🚀" />
-            <div className='text-5xl font-extrabold mb-5'>
-                <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
-                    Hello world
-                </span>
-            </div>
-            <button onClick={handleClick}
-                className="bg-sky-500 font-bold tracking-tighter rounded padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2">
-                Open an Alert 🙈
-            </button>
-        </header>
-        {/* // TODO: Create components & Footer to add the repository & more */}
-    </div>
+        <img src={logo} className="App-logo 2xl:object-scale-down" alt="React Icon 🚀" />
+        <div className='text-5xl font-extrabold mb-5'>
+            <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
+                Hello world
+            </span>
+        </div>
+        <button onClick={handleClick}
+            className="bg-sky-500 font-bold tracking-tighter rounded padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2">
+            Open an Alert 🙈
+        </button>
+    </header>
+    // TODO: Create components & Footer to add the repository & more
   )
 }
