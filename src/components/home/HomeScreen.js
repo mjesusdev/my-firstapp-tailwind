@@ -22,7 +22,7 @@ export const HomeScreen = () => {
             </span>
         </div>
         <button onClick={handleClick}
-            className="bg-sky-500 font-bold tracking-tighter rounded padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2">
+            className="bg-sky-500 font-bold rounded-full padding shadow-lg shadow-sky-500/50 hover:bg-sky-700 p-2 text-xl">
             Open an Alert 🙈
         </button>
     </header>
