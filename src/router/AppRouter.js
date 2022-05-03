@@ -6,7 +6,7 @@ import { FormsScreen } from '../components/forms/FormsScreen';
 
 export const AppRouter = () => {
     return (
-        <div class="2xl:container 2xl:mx-auto App">
+        <div className="2xl:container 2xl:mx-auto App">
             <Routes>
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="/cards" element={<CardsScreen />} />
